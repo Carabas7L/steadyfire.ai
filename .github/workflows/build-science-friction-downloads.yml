@@ -27,10 +27,34 @@ jobs:
           python-version: '3.12'
 
       - name: Install document tools
-        run: python -m pip install --disable-pip-version-check beautifulsoup4 markdownify weasyprint
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          python -m pip install --disable-pip-version-check beautifulsoup4 markdownify weasyprint
 
       - name: Build portable files
         run: python scripts/build_science_friction_downloads.py
+
+      - name: Render and inspect PDF
+        run: |
+          mkdir -p qa
+          PDF="science-friction/downloads/La_Romance_de_U-Sola_et_Igor_V3.pdf"
+          pdfinfo "$PDF" | tee qa/pdfinfo.txt
+          PAGES=$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')
+          test -n "$PAGES"
+          test "$PAGES" -gt 10
+          pdftoppm -f 1 -l 1 -r 140 -png -singlefile "$PDF" qa/first-page
+          pdftoppm -f "$PAGES" -l "$PAGES" -r 140 -png -singlefile "$PDF" qa/last-page
+          cp science-friction/downloads/SHA256SUMS.txt qa/SHA256SUMS.txt
+
+      - name: Upload QA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: science-friction-downloads-qa
+          path: |
+            science-friction/downloads
+            qa
+          if-no-files-found: error
 
       - name: Commit generated downloads
         run: |
