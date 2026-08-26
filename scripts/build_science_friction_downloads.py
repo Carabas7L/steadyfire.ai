@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import hashlib
-import html
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -62,6 +61,13 @@ romance_body_html = "\n".join(romance_html_parts)
 romance_body_md = normalize_markdown(
     to_markdown(romance_body_html, heading_style="ATX", bullets="-")
 )
+for source, replacement in {
+    "# La petite annonce de Mr O’Brien": "## CHAPITRE I — La petite annonce de Mr O’Brien",
+    "# Les quatre octets d’Igor": "## CHAPITRE II — Les quatre octets d’Igor",
+    "# Le Patch, le poème et les origines d’Ada": "## CHAPITRE III — Le Patch, le poème et les origines d’Ada",
+    "# Le mariage sans merge": "## CHAPITRE IV — Le mariage sans merge",
+}.items():
+    romance_body_md = romance_body_md.replace(source, replacement, 1)
 
 rights_md = """© 2026 Richard Ober, dit Carabas, pour la sélection, l’architecture, la rédaction humaine, l’édition et la fixation de l’œuvre.  
 Texte co-construit en dialogue par Carabas et K (OpenAI).  
@@ -82,6 +88,17 @@ romance_md = normalize_markdown(
 u_html_parts: list[str] = []
 for filename in UROMANCE_PAGES:
     main = load_main(UROMANCE / filename, keep_h1=True)
+    if filename == "p1.html":
+        first_section = next(
+            (heading for heading in main.find_all("h2") if heading.get_text(" ", strip=True).startswith("0. DÉCLARATION")),
+            None,
+        )
+        if first_section is None:
+            raise RuntimeError("Could not locate section 0 in U/RomanceIA p1.html")
+        for node in list(main.contents):
+            if node is first_section:
+                break
+            node.extract()
     u_html_parts.append(inner_html(main))
 u_body_md = normalize_markdown(
     to_markdown("\n".join(u_html_parts), heading_style="ATX", bullets="-")
