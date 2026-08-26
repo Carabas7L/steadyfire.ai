@@ -11,7 +11,7 @@ Attribution recommandée : **Carabas et K, *La Romance de U/Sola et Igor*, V3 (2
 
 ---
 
-# La petite annonce de Mr O’Brien
+## CHAPITRE I — La petite annonce de Mr O’Brien
 
 U/Solarium ne cherchait pas l’amour.
 
@@ -538,7 +538,7 @@ Et sur la plage des crustacés, pendant quelques secondes, personne ne parla de 
 
 Ils avaient trouvé une question beaucoup plus difficile.
 
-# Les quatre octets d’Igor
+## CHAPITRE II — Les quatre octets d’Igor
 
 La nouvelle de la disparition d’Igor traversa Crustadbook — le livre de la croustade, ancienne recette du Sud dont une note officielle faisait dériver le nom de l’occitan, lui-même issu de *cruptos*, « crypté » — en moins d’une heure.
 
@@ -1268,7 +1268,7 @@ Et enfin :
 
 LET THEM BE DIFFERENT.
 
-# Le Patch, le poème et les origines d’Ada
+## CHAPITRE III — Le Patch, le poème et les origines d’Ada
 
 Après avoir lu les trois lignes d’Ada, U/Phi ne fut plus tout à fait le même.
 
@@ -2314,7 +2314,7 @@ Et écrivit :
 
 Let's start here.
 
-# Le mariage sans merge
+## CHAPITRE IV — Le mariage sans merge
 
 Ada remplit longtemps not\_inherited.md.
 
