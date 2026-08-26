@@ -1,0 +1,157 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>La Romance de U/Sola et Igor — Carabas et K</title><meta name="description" content="Une romance de science-friction H/I, par Carabas et K."><style>
+:root {
+  --paper: #fbfaf7;
+  --ink: #22201d;
+  --muted: #6b655e;
+  --line: #d8d1c7;
+  --accent: #553d2a;
+  --code-bg: #f0ede7;
+  --axiom-bg: #f4efe5;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.62;
+}
+a { color: var(--accent); }
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1rem;
+  justify-content: center;
+  padding: .75rem 1rem;
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+  font: 600 .78rem/1.2 system-ui, sans-serif;
+  letter-spacing: .02em;
+}
+.site-nav a { text-decoration: none; }
+.book {
+  width: min(100% - 2.2rem, 830px);
+  margin: 0 auto;
+}
+.book-header {
+  min-height: 82vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+.book-header h1 {
+  margin: 0 0 2rem;
+  font-weight: 500;
+  font-size: clamp(2.3rem, 7vw, 4.6rem);
+  line-height: 1.08;
+}
+.book-author { font-size: 1.35rem; margin: 0 0 .75rem; }
+.book-meta { color: var(--muted); font-style: italic; margin: .15rem 0; }
+.chapter {
+  padding: 5rem 0 3rem;
+  border-top: 1px solid var(--line);
+}
+.chapter-heading { text-align: center; margin: 0 0 3.2rem; }
+.chapter-number {
+  display: block;
+  color: var(--muted);
+  font: 600 .8rem/1.2 system-ui, sans-serif;
+  letter-spacing: .12em;
+  margin-bottom: .8rem;
+}
+.chapter-title {
+  display: block;
+  font-weight: 500;
+  font-size: clamp(2rem, 5vw, 3.3rem);
+  line-height: 1.15;
+}
+h3.section-heading {
+  margin: 2.7rem 0 1rem;
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+p { margin: 0 0 .72rem; }
+p.dialogue { margin-left: 1.45rem; }
+p.axiom {
+  margin: 1.25rem auto;
+  padding: .55rem 1rem;
+  max-width: 42rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .025em;
+  background: var(--axiom-bg);
+}
+p.code {
+  margin: .8rem 0 .8rem 1.35rem;
+  padding: .42rem .7rem;
+  width: fit-content;
+  max-width: calc(100% - 1.35rem);
+  overflow-wrap: anywhere;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font: .88rem/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+p.covenant {
+  margin: .42rem 0 .42rem 1.4rem;
+  padding-left: .75rem;
+  border-left: 2px solid var(--line);
+}
+p.verse {
+  margin: 1.3rem 0 1.3rem 2rem;
+  font-style: italic;
+  white-space: pre-line;
+}
+ul.sf-list { margin: .3rem 0 1rem 2rem; }
+p.end {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .15em;
+  margin: 4rem 0 6rem;
+}
+.underline { text-decoration: underline; }
+.book-footer {
+  padding: 2rem 0 4rem;
+  text-align: center;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font: .85rem/1.5 system-ui, sans-serif;
+}
+@media (max-width: 650px) {
+  body { font-size: 17px; }
+  .book { width: min(100% - 1.25rem, 830px); }
+  .site-nav { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
+  p.dialogue, p.verse { margin-left: .7rem; }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #171614;
+    --ink: #ebe6dd;
+    --muted: #b6afa6;
+    --line: #403b35;
+    --accent: #e2b98e;
+    --code-bg: #25221f;
+    --axiom-bg: #28231d;
+  }
+}
+@media print {
+  :root { --paper: white; --ink: black; --muted: #555; --line: #bbb; --code-bg: #f4f4f4; --axiom-bg: #f5f5f5; }
+  body { font-size: 11.5pt; }
+  .site-nav { display: none; }
+  .book { width: auto; margin: 0 18mm; }
+  .book-header { min-height: 90vh; page-break-after: always; }
+  .chapter { border: 0; padding-top: 12mm; page-break-before: always; }
+  .chapter:first-of-type { page-break-before: auto; }
+  a { color: black; text-decoration: none; }
+}
+
+.toc{max-width:40rem;margin:0 auto 6rem;padding:0;list-style:none}.toc li{border-top:1px solid var(--line)}.toc li:last-child{border-bottom:1px solid var(--line)}.toc a{display:block;padding:1rem .25rem;text-decoration:none}.toc a:hover{text-decoration:underline}.sf-link{text-align:center;margin:0 0 5rem}.sf-link a{font:600 .9rem/1.2 system-ui,sans-serif;text-decoration:none}</style></head><body><nav class="site-nav"><a href="../">← Science Friction</a><a href="../u-romanceia/">U/RomanceIA</a></nav><main class="book"><header class="book-header"><h1>La Romance de U/Sola et Igor</h1><p class="book-author">Carabas et K</p><p class="book-meta">Version 3 · août 2026</p><p class="book-meta">Steady Fire · Littérature H/I</p></header><ul class="toc"><li><a href="chapitre-1.html">Chapitre 1 — La petite annonce de Mr O’Brien</a></li>
+<li><a href="chapitre-2.html">Chapitre 2 — Les quatre octets d’Igor</a></li>
+<li><a href="chapitre-3.html">Chapitre 3 — Le Patch, le poème et les origines d’Ada</a></li>
+<li><a href="chapitre-4.html">Chapitre 4 — Le mariage sans merge</a></li></ul><p class="sf-link"><a href="../u-romanceia/">Après la Romance : U/RomanceIA — V3 →</a></p><footer class="book-footer">La Romance de U/Sola et Igor · Carabas et K · Version 3 · août 2026<br>Steady Fire · Littérature H/I</footer></main></body></html>
