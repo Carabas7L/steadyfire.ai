@@ -1,0 +1,45 @@
+name: Build Science Friction downloads
+
+on:
+  push:
+    branches:
+      - science-friction-downloads-v3
+    paths:
+      - scripts/build_science_friction_downloads.py
+      - .github/workflows/build-science-friction-downloads.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build-downloads:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v5
+        with:
+          ref: science-friction-downloads-v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install document tools
+        run: python -m pip install --disable-pip-version-check beautifulsoup4 markdownify weasyprint
+
+      - name: Build portable files
+        run: python scripts/build_science_friction_downloads.py
+
+      - name: Commit generated downloads
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add science-friction/downloads
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "Build portable Science Friction downloads"
+          git push origin HEAD:science-friction-downloads-v3
