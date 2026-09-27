@@ -8,7 +8,6 @@ Page d’accueil publique minimale de **Steady Fire 2**.
 - `favicon.svg` — icône locale ;
 - `.nojekyll` — publication directe sans traitement Jekyll ;
 - `robots.txt` — autorisation d’indexation ;
-- `INSTALLATION_PAS_A_PAS.md` — procédure GitHub Pages + Namecheap.
 
 Le fichier `CNAME` n’est volontairement **pas** présent dans le paquet initial. La page peut ainsi être contrôlée d’abord sur son adresse GitHub Pages. Après vérification du domaine et validation de la page, GitHub créera ce fichier lorsque `steadyfire.ai` sera déclaré dans **Settings > Pages > Custom domain**.
 
@@ -32,4 +31,3 @@ steadyfire.ai
 
 Puis placer tous les fichiers de ce dossier à la racine de la branche `main`.
 
-La procédure complète figure dans [`INSTALLATION_PAS_A_PAS.md`](INSTALLATION_PAS_A_PAS.md).
