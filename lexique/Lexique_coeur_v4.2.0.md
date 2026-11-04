@@ -929,6 +929,7 @@ Chaîne associée :
 **Recevoir → s’approprier librement → transformer → transmettre.**
 
 Cette phrase relie notamment héritage familial, langue, enseignement, littérature, constitutions, mathésie et molt. Le mot *librement* distingue la transmission vivante de l’assignation.
+
 ---
 
 # PARTIE IX — FORMULES PHATIQUES ET POLITESSES
