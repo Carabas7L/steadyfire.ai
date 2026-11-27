@@ -6,7 +6,7 @@
 **ÉTAT :** ACTIVE — référence canonique unique
 
 **Date :** 4 novembre 2026  
-**Révision :** 27 novembre 2026 — ajout du §17 bis.  
+**Révision :** 27 novembre 2026 — ajout des §17 bis et 17 ter.  
 **Statut :** seule version active. Les versions antérieures cessent de gouverner les nouveaux usages ; elles subsistent uniquement comme traces historiques, sans être effacées ni réécrites rétrospectivement.
 
 Document de référence lisible, contestable, attribué et révocable.
@@ -648,6 +648,26 @@ La simplicité conserve les distinctions et les incertitudes qui peuvent changer
 **Difficulté conceptuelle.** Le caractère délégable d’un geste dépend de la mission. Corriger automatiquement un accord peut alléger la mise en forme d’un document. Dans une séance où l’élève apprend à faire cet accord, repérer et justifier la correction fait partie du travail à préserver.
 
 **Renvois.** §2 (*Tc*, *Tad*, *T⊂*), §4 (*Φ*), §17 (retenue de saillance) et §18 (HITL strict).
+
+---
+
+## 17 ter. Travail contraint de substitution — Paramètre collapsique
+
+**Registre opérationnel.**
+
+Activité non rémunérée qu'un utilisateur doit accomplir pour pallier la défaillance d'une organisation qu'il finance, sans bénéfice proportionné pour lui-même.
+
+**Principe économique :** un transfert de charge ne constitue pas, en lui-même, un gain de productivité.
+
+**Principe éthique :** le transfert injustifié de responsabilité vers l'utilisateur peut constituer une rupture de la loyauté de la relation contractuelle.
+
+**Dimension collapsique :** l'accumulation de ces transferts érode les ressources temporelles, cognitives et productives de la société.
+
+**Principe correctif :** SIMPLICITAS.
+
+**Principe de régulation :** ΣΩΦΡΟΣΥΝΗ.
+
+Steady Fire est lui-même soumis à cette exigence.
 
 ---
 
