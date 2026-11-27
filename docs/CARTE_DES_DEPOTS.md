@@ -2,7 +2,7 @@
 
 **Point d’entrée du corpus public · 4 novembre 2026**
 
-[Site Steady Fire](https://steadyfire.ai/) · [Lexique cœur V4.2](../lexique/Lexique_coeur_v4.2.0.md) · [Concordance des signes](CONCORDANCE.md)
+[Site Steady Fire](https://steadyfire.ai/) · [Lexique cœur V5](../lexique/Lexique_coeur_v5.0.0.md) · [Concordance des signes](CONCORDANCE.md)
 
 ## La question commune
 
@@ -13,7 +13,7 @@ Les dépôts de Carabas7L réunissent plusieurs étapes de cette recherche : voc
 ## Commencer en trois étapes
 
 1. Lire la présentation sur [steadyfire.ai](https://steadyfire.ai/).
-2. Consulter le [lexique V4.2](../lexique/Lexique_coeur_v4.2.0.md) pour les termes rencontrés, en commençant par H, I, pR, Θ, Φ et CSF.
+2. Consulter le [lexique V5](../lexique/Lexique_coeur_v5.0.0.md) pour les termes rencontrés, en commençant par H, I, pR, Θ, Φ et CSF.
 3. Choisir un parcours : [principes avec Scala 5](https://github.com/Carabas7L/scala5), [accompagnement avec LAIA-DAIA](https://github.com/Carabas7L/LAIA-DAIA), ou [littérature avec Science Friction](https://steadyfire.ai/science-friction/).
 
 Le lexique est une référence de consultation : il n’est pas nécessaire de mémoriser tous ses signes avant de lire une publication.
@@ -36,14 +36,14 @@ Le lexique est une référence de consultation : il n’est pas nécessaire de m
 
 | Question | Référence à consulter |
 | --- | --- |
-| Que signifie un terme dans un nouveau texte Steady Fire ? | Lexique cœur V4.2, avec ses marqueurs provisoires, suspendus ou historiques |
+| Que signifie un terme dans un nouveau texte Steady Fire ? | Lexique cœur V5, avec ses marqueurs provisoires, suspendus ou historiques |
 | Que signifie un signe dans une équation conservée ? | Définition locale et version de cette équation, puis note de concordance |
 | Quels principes expose Scala 5 ? | Texte du socle Scala 5 et son guide de lecture |
 | Que prévoit le pilote scolaire ? | Annexe LAIA-DAIA ; elle distingue les exigences de conception des fonctionnalités à vérifier |
 | Qu’est-ce qui est canonique dans la Romance ? | Œuvre publiée ; U/RomanceIA précise les limites des dérivations |
 | Qu’est-ce qui fonctionne techniquement ? | Fichiers, implémentation et vérifications propres au dispositif considéré ; aucun lexique ne suffit à le démontrer |
 
-Les numéros **Scala 5**, **Lexique 4.2** et **LAIA-DAIA 2.6** appartiennent à trois séries indépendantes. Le lexique actuel ne réécrit pas rétroactivement un texte gelé. Une définition locale doit rester attachée à sa source.
+Les numéros **Scala 5**, **Lexique 5** et **LAIA-DAIA 2.6** appartiennent à trois séries indépendantes. Le lexique actuel ne réécrit pas rétroactivement un texte gelé. Une définition locale doit rester attachée à sa source.
 
 ## Six repères pour lire sans connaître notre histoire
 
