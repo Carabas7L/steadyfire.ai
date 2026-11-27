@@ -6,6 +6,7 @@
 **ÉTAT :** ACTIVE — référence canonique unique
 
 **Date :** 4 novembre 2026  
+**Révision :** 27 novembre 2026 — ajout du §17 bis.  
 **Statut :** seule version active. Les versions antérieures cessent de gouverner les nouveaux usages ; elles subsistent uniquement comme traces historiques, sans être effacées ni réécrites rétrospectivement.
 
 Document de référence lisible, contestable, attribué et révocable.
@@ -622,6 +623,31 @@ Formules :
 
 - **The event was true; the urgency was false.**
 - **The capacity to alert creates an obligation of restraint.**
+
+---
+
+## 17 bis. Ἁπλότης — La simplicité
+
+**Registre opérationnel.**
+
+**Sens historique.** Ἁπλότης (*haplótēs*), dérivé de ἁπλοῦς (« simple »), désigne chez Platon la simplicité de la formation musicale et gymnique (*République*, III, 404e). Appliqué à la disposition d’une personne, le mot peut exprimer la franchise ou la sincérité. Ainsi, *Sagesse* 1,1 dit ἐν ἁπλότητι καρδίας, « avec un cœur sincère ». Dans le contexte du don, il prend le sens de « générosité » (2 Corinthiens 9,11). Steady Fire reprend le sens de simplicité et en fait un principe de conception. [LSJ et Bailly](https://logeion.org/%E1%BC%81%CF%80%CE%BB%CF%8C%CF%84%CE%B7%CF%82) · [Platon, République III, 404e](https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?page=41&text_id=111) · [Sagesse 1,1](https://www.biblindex.org/fr/bible/septuaginta/ws-1) · [2 Corinthiens 9,11](https://biblia.com/bible/sblgnt/2-corinthians/9/11-12)
+
+**Définition.** La simplicité consiste à rendre une mission plus facile à accomplir en supprimant les opérations superflues et en faisant prendre en charge par le système, autant que possible, la complexité d’exécution qu’il peut traiter de façon fiable et contrôlable. Elle crée une valeur **fonctionnelle** quand le service répond mieux à son but ou devient plus facile à utiliser à qualité égale, **temporelle** quand elle réduit le temps administratif évitable (*Tad*), et **humaine** quand elle rend à la personne du temps (*Tc*) et de la liberté pour comprendre, apprendre et décider.
+
+La simplicité conserve les distinctions et les incertitudes qui peuvent changer le jugement. Elle préserve le temps d’assimilation (*T⊂*), les contrôles de sécurité nécessaires, les traces utiles à la vérification et l’autorité du responsable humain aux points fixés par le mandat. La liberté s’éprouve dans la possibilité effective de vérifier, de contester, de reprendre la main et d’arrêter. La simplicité donne ainsi à *Φ* (*philotimia*) un terrain d’épreuve concret dans le service rendu et ses effets sur les personnes.
+
+> « Ne pas confondre l’exécution d’une procédure avec l’accomplissement d’une mission. »
+
+> « Le temps rendu à l’humain lui appartient. »
+
+**Deux critères opérationnels**
+
+1. **Gain constaté sur la mission entière.** Comparer deux façons d’accomplir la même mission, avec les mêmes exigences de résultat et de sécurité. Relever, pour chaque personne concernée, le temps de préparation, de saisie, de supervision et de reprise. Dans LAIA-DAIA, éprouver les traces communes préremplies et quelques observations ciblées. Le gain est établi si la charge évitable diminue et si les traces nécessaires restent vérifiables. Si la supervision dépasse le temps disponible, réduire le périmètre ou suspendre l’usage. [LAIA-DAIA, extension d’usage, §5](https://github.com/Carabas7L/LAIA-DAIA/blob/main/README.md#5-supervision-soutenable-et-fin-de-s%C3%A9ance)
+2. **Maîtrise humaine éprouvée.** Sur un cas où le système produit une proposition plausible mais erronée, vérifier que le responsable peut repérer l’écart, consulter la source, corriger ou refuser la proposition et interrompre l’action à temps. En situation d’apprentissage, vérifier aussi que l’élève peut expliquer son geste et le réemployer sans aide sur le contenu, avec les adaptations d’accès prévues. [LAIA-DAIA, extension d’usage, §2 à 4](https://github.com/Carabas7L/LAIA-DAIA/blob/main/README.md#2-pied-%C3%A0-terre-et-appropriation-humaine)
+
+**Difficulté conceptuelle.** Le caractère délégable d’un geste dépend de la mission. Corriger automatiquement un accord peut alléger la mise en forme d’un document. Dans une séance où l’élève apprend à faire cet accord, repérer et justifier la correction fait partie du travail à préserver.
+
+**Renvois.** §2 (*Tc*, *Tad*, *T⊂*), §4 (*Φ*), §17 (retenue de saillance) et §18 (HITL strict).
 
 ---
 
