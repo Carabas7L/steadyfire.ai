@@ -1,6 +1,8 @@
 # Concordance des signes — Steady Fire, Scala et LAIA-DAIA
 
-**Note de lecture · 4 novembre 2026**
+**Note de lecture · 4 novembre 2026 — repère de version actualisé le 27 novembre 2026**
+
+**Mise à jour :** le [Lexique cœur V5](../lexique/Lexique_coeur_v5.0.0.md) est désormais la référence active pour les nouveaux usages. Les comparaisons ci-dessous demeurent rapportées à la V4.2 ; voir la [concordance V4.2 → V5](../lexique/CONCORDANCE_V4_V5.md).
 
 [Carte des dépôts](CARTE_DES_DEPOTS.md) · [Lexique cœur V4.2](../lexique/Lexique_coeur_v4.2.0.md)
 
@@ -8,7 +10,7 @@
 
 Cette note explique comment lire ensemble des textes élaborés à des étapes et pour des usages différents. Elle accompagne les références ; elle ne modifie ni le lexique V4.2, ni les équations conservées, ni le cœur gelé de LAIA-DAIA.
 
-Pour un nouveau texte Steady Fire, le lexique V4.2 fournit la référence lexicale. Pour interpréter une citation ou une formule historique, sa définition locale demeure indispensable. Les numéros de version des différents projets ne forment pas une seule succession.
+Pour un nouveau texte Steady Fire, le lexique V5 fournit la référence lexicale. Pour interpréter une citation ou une formule historique, sa définition locale demeure indispensable. Les numéros de version des différents projets ne forment pas une seule succession.
 
 ## Pourquoi les sens diffèrent
 
@@ -42,7 +44,7 @@ Les statuts **[PROV]**, **[SUSP]**, **[LEG]** et **[PHAT]** se lisent selon le r
 ## Citer sans réinterpréter silencieusement
 
 - Écrire « κ — charge cognitive, au sens de LAIA-DAIA § 4.2 » lorsqu’on commente ce texte.
-- Écrire « κ — journalisation traçable, au sens du Lexique V4.2 » lorsqu’on décrit un nouvel usage Steady Fire.
+- Écrire « κ — journalisation traçable, au sens du Lexique V5 » lorsqu’on décrit un nouvel usage Steady Fire.
 - Pour comparer les deux, employer leurs noms en toutes lettres. Cette note n’introduit pas de nouveaux symboles canoniques.
 - Ne pas appliquer la définition actuelle de ε à une équation Scala 5 sans signaler et justifier cette réinterprétation.
 - Identifier la version et le domaine avant d’associer des équations provenant de plusieurs dépôts.
