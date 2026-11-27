@@ -1,6 +1,6 @@
 # Concordance — Lexique cœur V4.2 → V5
 
-**27 novembre 2026.** La V5 est la référence active. Les références antérieures renvoient à leur contexte historique ; aucune version gelée n’est réécrite rétroactivement. [V4.2, état exact]( https://github.com/Carabas7L/steadyfire.ai/blob/0c5b5681e86888ca7fde285ab6b31fe46289c09a/lexique/Lexique_coeur_v4.2.0.txt ) · [V5](Lexique_coeur_v5.0.0.md) · [Lecture publique](https://steadyfire.ai/lexique/).
+**27 novembre 2026.** La V5 est la référence active. Les références antérieures renvoient à leur contexte historique ; aucune version gelée n’est réécrite rétroactivement. [V4.2, état exact](https://github.com/Carabas7L/steadyfire.ai/blob/0c5b5681e86888ca7fde285ab6b31fe46289c09a/lexique/Lexique_coeur_v4.2.0.txt) · [V5](Lexique_coeur_v5.0.0.md) · [Lecture publique](https://steadyfire.ai/lexique/).
 
 | Repère V4.2 | Destination V5 | Traitement |
 |---|---|---|
