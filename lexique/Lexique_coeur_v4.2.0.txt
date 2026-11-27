@@ -3,11 +3,11 @@
 **PROJECT :** Steady Fire  
 **VERSION :** 4.2.0  
 **HUB :** Lexique cœur  
-**ÉTAT :** ACTIVE — référence canonique unique
+**ÉTAT :** ARCHIVE — remplacée par la V5 le 27 novembre 2026
 
 **Date :** 4 novembre 2026  
 **Révision :** 27 novembre 2026 — ajout des §17 bis et 17 ter.  
-**Statut :** seule version active. Les versions antérieures cessent de gouverner les nouveaux usages ; elles subsistent uniquement comme traces historiques, sans être effacées ni réécrites rétrospectivement.
+**Statut :** état historique non opératoire ; la référence active est le [Lexique cœur V5](Lexique_coeur_v5.0.0.md). Le contenu de la V4.2 est conservé pour provenance.
 
 Document de référence lisible, contestable, attribué et révocable.
 

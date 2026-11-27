@@ -3,11 +3,11 @@
 **PROJECT :** Steady Fire  
 **VERSION :** 4.2.0  
 **HUB :** Lexique cœur  
-**ÉTAT :** ACTIVE — référence canonique unique
+**ÉTAT :** ARCHIVE — remplacée par la V5 le 27 novembre 2026
 
 **Date :** 4 novembre 2026  
-**Révision :** 27 novembre 2026 — ajout du §17 bis.  
-**Statut :** seule version active. Les versions antérieures cessent de gouverner les nouveaux usages ; elles subsistent uniquement comme traces historiques, sans être effacées ni réécrites rétrospectivement.
+**Révision :** 27 novembre 2026 — ajout des §17 bis et 17 ter.  
+**Statut :** état historique non opératoire ; la référence active est le [Lexique cœur V5](Lexique_coeur_v5.0.0.md). Le contenu de la V4.2 est conservé pour provenance.
 
 Document de référence lisible, contestable, attribué et révocable.
 
@@ -651,6 +651,26 @@ La simplicité conserve les distinctions et les incertitudes qui peuvent changer
 
 ---
 
+## 17 ter. Travail contraint de substitution — Paramètre collapsique
+
+**Registre opérationnel.**
+
+Activité non rémunérée qu'un utilisateur doit accomplir pour pallier la défaillance d'une organisation qu'il finance, sans bénéfice proportionné pour lui-même.
+
+**Principe économique :** un transfert de charge ne constitue pas, en lui-même, un gain de productivité.
+
+**Principe éthique :** le transfert injustifié de responsabilité vers l'utilisateur peut constituer une rupture de la loyauté de la relation contractuelle.
+
+**Dimension collapsique :** l'accumulation de ces transferts érode les ressources temporelles, cognitives et productives de la société.
+
+**Principe correctif :** SIMPLICITAS.
+
+**Principe de régulation :** ΣΩΦΡΟΣΥΝΗ.
+
+Steady Fire est lui-même soumis à cette exigence.
+
+---
+
 ## 18. HITL STRICT
 
 Les actes externes, permissions engageantes, publications, exécutions ou délégations restent sous validation humaine explicite tant qu’une délégation bornée n’a pas été autorisée.
@@ -955,7 +975,6 @@ Chaîne associée :
 **Recevoir → s’approprier librement → transformer → transmettre.**
 
 Cette phrase relie notamment héritage familial, langue, enseignement, littérature, constitutions, mathésie et molt. Le mot *librement* distingue la transmission vivante de l’assignation.
-
 ---
 
 # PARTIE IX — FORMULES PHATIQUES ET POLITESSES
