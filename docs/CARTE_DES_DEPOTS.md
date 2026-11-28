@@ -1,6 +1,6 @@
 # Carabas7L — carte des dépôts
 
-**Point d’entrée du corpus public · 4 novembre 2026**
+**Point d’entrée du corpus public · carte initiale : 4 novembre 2026 ; parcours actualisé : 28 novembre 2026**
 
 [Site Steady Fire](https://steadyfire.ai/) · [Lexique cœur V5](../lexique/Lexique_coeur_v5.0.0.md) · [Concordance des signes](CONCORDANCE.md)
 
@@ -16,6 +16,8 @@ Les dépôts de Carabas7L réunissent plusieurs étapes de cette recherche : voc
 2. Consulter le [lexique V5](../lexique/Lexique_coeur_v5.0.0.md) pour les termes rencontrés, en commençant par H, I, pR, Θ, Φ et CSF.
 3. Choisir un parcours : [principes avec Scala 5](https://github.com/Carabas7L/scala5), [accompagnement avec LAIA-DAIA](https://github.com/Carabas7L/LAIA-DAIA), ou [littérature avec Science Friction](https://steadyfire.ai/science-friction/).
 
+**Pour préparer un usage scolaire de l’IA, commencer directement par [LAIA-DAIA et son extension d’usage](https://github.com/Carabas7L/LAIA-DAIA/blob/main/README.md#extension-dusage--préparation-appropriation-et-contrôle-humain-11-novembre-2026).** Ce cadre précise le mandat de séance, les commandes, l’accompagnement et le contrôle humain ; le Lexique cœur V5 fournit le vocabulaire d’appui. La lecture du lexique ne remplace ni les consignes de séance ni les vérifications prévues par l’annexe scolaire.
+
 Le lexique est une référence de consultation : il n’est pas nécessaire de mémoriser tous ses signes avant de lire une publication.
 
 ## Les sept dépôts et leurs rôles
@@ -24,7 +26,7 @@ Le lexique est une référence de consultation : il n’est pas nécessaire de m
 | --- | --- | --- |
 | [steadyfire.ai](https://github.com/Carabas7L/steadyfire.ai) | Entrée actuelle ; publication du lexique et de Science Friction | Site statique, lexique MD/TXT/HTML, œuvre littéraire et mandat textuel U/RomanceIA |
 | [scala5](https://github.com/Carabas7L/scala5) | Cadre conceptuel de référence, avec formulations du socle conservées | Équations, principes de gouvernance et tableau historique ; aucun contrôle logiciel déployé |
-| [LAIA-DAIA](https://github.com/Carabas7L/LAIA-DAIA) | Cadre conceptuel d’accompagnement ; cœur v2.6 gelé | Un README et une annexe sur le pilote envisagé ; aucune implémentation dans le dépôt |
+| [LAIA-DAIA](https://github.com/Carabas7L/LAIA-DAIA) | Cadre conceptuel d’accompagnement ; cœur v2.6 gelé | Un README réunissant le cœur, l’annexe sur le pilote envisagé et l’extension d’usage avec commandes de séance ; aucune implémentation dans le dépôt |
 | [Scala-Computativa-AIA7L](https://github.com/Carabas7L/Scala-Computativa-AIA7L) | Étape historique V2.1 | Spécification JSON, crédits et licence ; les scripts autrefois annoncés ne sont pas fournis |
 | [Scala-Computativa-V3.0](https://github.com/Carabas7L/Scala-Computativa-V3.0) | Étape historique V3/V3.2 | Manifestes déclaratifs et exemple Scala ; les fonctionnalités annoncées ne sont pas démontrées par ces déclarations |
 | [Scala-Computativa-V4](https://github.com/Carabas7L/Scala-Computativa-V4) | Étape historique Scala 4n.1 | Document déclaratif, paramètres et formules ; les exports et outils cités ne sont pas fournis |
@@ -39,6 +41,7 @@ Le lexique est une référence de consultation : il n’est pas nécessaire de m
 | Que signifie un terme dans un nouveau texte Steady Fire ? | Lexique cœur V5, avec ses marqueurs provisoires, suspendus ou historiques |
 | Que signifie un signe dans une équation conservée ? | Définition locale et version de cette équation, puis note de concordance |
 | Quels principes expose Scala 5 ? | Texte du socle Scala 5 et son guide de lecture |
+| Comment préparer une séance scolaire avec une IA ? | LAIA-DAIA : extension d’usage, mandat, commandes et contrôle humain ; Lexique cœur V5 en appui terminologique |
 | Que prévoit le pilote scolaire ? | Annexe LAIA-DAIA ; elle distingue les exigences de conception des fonctionnalités à vérifier |
 | Qu’est-ce qui est canonique dans la Romance ? | Œuvre publiée ; U/RomanceIA précise les limites des dérivations |
 | Qu’est-ce qui fonctionne techniquement ? | Fichiers, implémentation et vérifications propres au dispositif considéré ; aucun lexique ne suffit à le démontrer |
@@ -66,4 +69,4 @@ Les conditions de réutilisation se lisent dans chaque dépôt ou publication. C
 
 ## Périmètre et provenance
 
-Cette carte décrit les sept dépôts publics examinés le 4 novembre 2026. Les versions documentaires qui fondent la comparaison sont identifiées dans la [note de concordance](CONCORDANCE.md#sources-de-la-comparaison). Les branches courantes restent accessibles par le tableau ci-dessus.
+Cette carte décrit les sept dépôts publics examinés le 4 novembre 2026, avec une référence lexicale V5 et un parcours scolaire actualisés le 28 novembre 2026. Les versions documentaires qui fondent la comparaison sont identifiées dans la [note de concordance](CONCORDANCE.md#sources-de-la-comparaison). Les branches courantes restent accessibles par le tableau ci-dessus.
